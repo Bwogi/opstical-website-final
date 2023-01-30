@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image-01.jpg';
-import TheVideo from '../videos/pexels-kindel-media.mp4'
 import { Link } from 'react-router-dom';
 
 function HeroHome() {
