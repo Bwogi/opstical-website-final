@@ -125,7 +125,7 @@ function Header() {
                   <Link to="/contact" className="flex text-gray-300 hover:text-gray-200 py-2">Contact</Link>
                 </li>
                 
-                <li className="py-2 my-2 border-t border-b border-gray-700">
+                {/* <li className="py-2 my-2 border-t border-b border-gray-700">
                   <span className="flex text-gray-300 py-2">Support</span>
                   <ul className="pl-4">
                     <li>
@@ -138,7 +138,7 @@ function Header() {
                       <Link to="/404" className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">404</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/signin" className="flex font-medium w-full text-red-800 hover:text-gray-200 py-2 justify-center">Sign in</Link>
                 </li>
