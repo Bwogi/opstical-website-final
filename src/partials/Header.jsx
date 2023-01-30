@@ -68,19 +68,8 @@ function Header() {
                 <Link to="/contact" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact us</Link>
               </li>
               
-              {/* 1st level: hover */}
-              <Dropdown title="Support">
-                {/* 2nd level: hover */}
-                <li>
-                  <Link to="/contact" className="font-medium text-sm text-gray-400 hover:text-red-600 flex py-2 px-4 leading-tight">Contact us</Link>
-                </li>
-                <li>
-                  <Link to="/help" className="font-medium text-sm text-gray-400 hover:text-red-600 flex py-2 px-4 leading-tight">Help center</Link>
-                </li>
-                <li>
-                  <Link to="/404" className="font-medium text-sm text-gray-400 hover:text-red-600 flex py-2 px-4 leading-tight">404</Link>
-                </li>
-              </Dropdown>
+         
+              
             </ul>
 
             {/* Desktop sign in links */}

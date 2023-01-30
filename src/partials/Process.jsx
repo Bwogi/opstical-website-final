@@ -2,14 +2,14 @@ import React from 'react';
 
 function Process() {
   return (
-    <section>
+    <section id='process'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-10 pb-12 md:pt-16 md:pb-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" data-aos="fade-up">Built exclusively for you</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h2 className="h2 mb-4" data-aos="fade-up">Our Process</h2>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Our process is designed to help you bring your ideas to life quickly and efficiently. By focusing on the minimum viable solution, we ensure that you are able to validate your solution and make improvements before investing too much time and resources. </p>
           </div>
 
           {/* Items */}
@@ -23,8 +23,8 @@ function Process() {
                 <path className="stroke-current text-red-300" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-red-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2"><span className="text-gray-400">1</span>. Acquisition</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h4 className="h4 mb-2"><span className="text-gray-400">1</span>. Problem Definition</h4>
+              <p className="text-lg text-gray-400 text-center">We clearly define the problem you are trying to solve, who the target customer is, and what their pain points are.</p>
             </div>
 
             {/* 2nd item */}
@@ -37,8 +37,8 @@ function Process() {
                   <path className="stroke-current text-red-100" strokeWidth="2" strokeLinecap="square" d="M36 32l-4-3-4 3V22h8z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2"><span className="text-gray-400">2</span>. Activation</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h4 className="h4 mb-2"><span className="text-gray-400">2</span>. MV Solution identification</h4>
+              <p className="text-lg text-gray-400 text-center">We then  help you identify the minimum set of features that will effectively solve the problem for the target customer to minimize the amount of resources you need to invest in the MVP.</p>
             </div>
 
             {/* 3rd item */}
@@ -48,8 +48,8 @@ function Process() {
                 <path className="stroke-current text-red-300" strokeWidth="2" strokeLinecap="square" d="M21 35l4 4 12-15" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-red-100" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2"><span className="text-gray-400">3</span>. Retention</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h4 className="h4 mb-2"><span className="text-gray-400">3</span>. Solution Validation</h4>
+              <p className="text-lg text-gray-400 text-center">We then test the MVP with a small group of target customers to validate the solution to ensure that it meets their needs. We also use feedback from this validation to improve the solution before launching it to a wider audience.</p>
             </div>
 
           </div>

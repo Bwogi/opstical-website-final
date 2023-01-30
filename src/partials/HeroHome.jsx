@@ -34,10 +34,10 @@ function HeroHome() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Welcome to Opstical LLC. We're excited to launch this new platform and share our vision with you. Join us on this journey as we strive to revolutionize the industry with innovative solutions. Let's make an impact together!</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-gray-800 rounded-md hover:bg-gray-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Our  Process</a>
+                <a className="btn text-white bg-gray-800 rounded-md hover:bg-gray-700 w-full mb-4 sm:w-auto sm:mb-0" href="#process">Our  Process</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <Link className="btn text-white rounded-md bg-red-800 w-full sm:w-auto sm:ml-4" to="/about">Learn more</Link>
+                <Link className="btn text-white rounded-md bg-red-800 w-full sm:w-auto sm:ml-4" to="/about">More About Us</Link>
               </div>
             </div>
           </div>
